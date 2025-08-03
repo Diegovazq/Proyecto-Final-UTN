@@ -1,0 +1,6 @@
+
+const Register= ()=>{
+
+}
+
+export {Register}

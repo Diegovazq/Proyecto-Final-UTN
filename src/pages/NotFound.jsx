@@ -1,0 +1,6 @@
+
+const NotFound=()=>{
+
+}
+
+export {NotFound}
