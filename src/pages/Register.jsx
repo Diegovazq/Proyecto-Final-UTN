@@ -24,7 +24,7 @@ const Register= ()=>{
         }
         console.log(newUser)
         setSucces("Usuario creado con exito!!!")
-           setUsername("")
+        setUsername("")
         setEmail("")
         setPassword("") 
 

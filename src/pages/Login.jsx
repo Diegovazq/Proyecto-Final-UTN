@@ -15,8 +15,9 @@ const Login=()=>{
                    <div>
                     <label>Contraseña:</label>
                     <input type="password" />
+                     </div>
                     <button>Ingresar </button>
-                </div>
+               
             </form>
          </section>
 

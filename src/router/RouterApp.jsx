@@ -12,7 +12,7 @@ const RouterApp=()=>{
             <Route path="/" element={<Home/>}/>
             <Route path="/dashboard" element={<Dashboard/>}/>
             <Route path="/login" element={<Login/>}/>
-            <Route path="registrate" element={<Register/>}/>
+            <Route path="/registrate" element={<Register/>}/>
             <Route path="*" element={<NotFound/>}/>
         </Routes>
         </BrowserRouter>
