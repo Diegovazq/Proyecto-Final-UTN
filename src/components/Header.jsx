@@ -9,7 +9,6 @@ const Header= ()=>{
             <nav>
                 <ul>
                     {
-
                     user && <>
                     <li><Link to="/">Inicio</Link></li>
                       <li><Link to="/dashboard">Dashboard</Link></li>
@@ -17,8 +16,7 @@ const Header= ()=>{
                     </>
                     }
                     {
-                      !user &&
-                      <>
+                      !user && <>
                       <li><Link to="/login">Login</Link></li>
                           <li><Link to="/registrate">Registrate</Link></li>
                       </>
